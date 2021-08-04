@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <div id="container">
+        <div id="heading">
+            <h2 class="heading-main">Application Form For Date My Girlfriend</h2>
+            <p><strong>Note:</strong> This form should be filled before 1 week of Date of Outing. </p>
+        </div>
+        <form action="backend.php">
+        <fieldset id="person-detail" class="">
+            <legend>Persional Details</legend>
+                <div>
+                    Name: <input type="text" name="" class="input" placeholder="Enter your Name.....">
+                </div>
+                <div>
+                    Address: <input type="text" name="" class="input" placeholder="Enter your Address...">
+                </div>
+                <div>
+                    Phone: <input type="number" name="" class="input" placeholder="Enter your phone Number.....">
+                </div>
+                <div>
+                    Email: <input type="text" name="" class="input" placeholder="Enter your phone Number.....">
+                </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset id="gender" class="">
+            <legend>Gender</legend>
+                <div>
+                   <input type="radio" name="gender" id="male" value="Male" >Male
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="Female">Female
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="others" value="Others">Others
+                </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Date of Outing proposed:</legend>
+            <div>
+                <input type="date" name="date" id="date-of-outing">
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Check all that You have</legend>
+            <div id="checkbox" class="">
+                <div>
+                    <input type="checkbox" name="1" id="1">I have Iphone
+                </div>
+                <div>
+                    <input type="checkbox" name="2" id="2">I have Better Sense of Humour
+                </div>
+                <div>
+                    <input type="checkbox" name="3" id="3">I'm Fair enough
+                </div>
+                <div>
+                    <input type="checkbox" name="4" id="4">I have a lamborgini
+                </div>
+                <div>
+                    <input type="checkbox" name="5" id="5">I will take care of you
+                </div>
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <div id="BasicQues" class="">
+            <fieldset>
+                <legend>Why You want to take me on a Date?</legend>
+                <div>
+                    <textarea name="text-area" id="text-area1" cols="40" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>What do you think why My girlfriend should go with you??</legend>
+                <div>
+                    <textarea name="text-area" id="text-area1" cols="40" rows="5"></textarea>
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Upload Your Photos</legend>
+            <div id="file" class="">
+                <input type="file" name="photo" id="photo">
+            </div>
+        </fieldset>
+        <br>
+        <br>
+        <div id="submitbtn" class="">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset form</button>
+        </div>
+        </form>
+    </div>
+    <script src="js/myjs.js"></script>
+</body>
+</html>
